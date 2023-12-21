@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@600;700&display=swap');
+/** TODO AMEFA FARBE HINZUFÜGEN**/
+
+:root {
+    --amefa: #14A192;
+}
+
+body {
+    font-family: 'Inconsolata', monospace;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #565656;
+
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    box-shadow: 12px 12px 2px 1px rgba(20, 161, 146, 0.8);
+    margin: 25px;
+    padding: 25px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+input {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: larger;
+    padding: 5px;
+    margin: 10px;
+    min-height: 10vh;
+    border-image-source: linear-gradient(rgba(63, 149, 176, 0.9), rgba(0, 0, 51, 0.5));
+    box-shadow: 1px 12px 2px 1px rgba(20, 161, 146, .8);
+    border-radius: 10px;
+    border-width: 5pt;
+    border-image-slice: 0%;
+    margin-bottom: 33px;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+    box-shadow: 0px 1px 25px 25px rgb(255, 255, 255, 0.5);
+}
+
+
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    cursor: pointer;
+    border-color: var(--amefa);
+    border-width: 0;
+    box-shadow: 12px 12px 2px 1px rgba(20, 161, 146, .8);
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: var(--amefa);
+    box-shadow: 0px 2px 12px 1px rgba(255, 252, 252, 0.2);
+
+}
+
+@media (max-width: 600px) {
+    input {
+        width: 100%;
+        box-shadow: 0px 12px 2px 1px rgba(197, 197, 206, 0.2);
+    }
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0; /* Optional: removes default padding */
+}
+
+li {
+    list-style-type: none;
+}
+
+
+#userwords ul, ol {
+    list-style: none;
+    padding: 0; /* Optional: removes default padding */
+
+}
+
+#userwords li {
+    list-style-type: none;
+
+
+}
+
+#buttonbox {
+
+    padding: 10px;
+    margin: 10px;
+}
+
+#passwordbox{
+    background: #676666;
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    color: white;
+    margin-top: 50px;
+}
+
+#passwordbox p {
+    font-size: 35px;
+}
+
+.copy-button {
+    background: #14A192;
+    box-shadow: none;
+
+}
+
+.copy-button:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 33px 12px rgb(255, 255, 255, 0.5);
+}
+
